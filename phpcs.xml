@@ -15,7 +15,13 @@
         <exclude name="PSR12.Files.FileHeader.SpacingAfterBlock"/>
         <exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
         <exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis"/>
+        <exclude name="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
         <exclude name="PSR12.Files.FileHeader.HeaderPosition"/>
+        <exclude name="PSR2.Methods.FunctionClosingBrace.SpacingBeforeClose"/>
+        <exclude name="PSR2.Files.EndFileNewline.NoneFound"/>
+        <exclude name="PSR2.Classes.ClassDeclaration.CloseBraceAfterBody"/>
+        <exclude name="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore"/>
+        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.SpaceBeforeOpenBrace"/>
         <exclude name="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
         <exclude name="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
         <exclude name="Internal.NoCodeFound"/>
