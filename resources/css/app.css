@@ -23,3 +23,24 @@
         }
     }
 }
+
+@layer utilities {
+    .scrollbar::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .scrollbar::-webkit-scrollbar-track {
+        border-radius: 100vh;
+        @apply bg-gray-100;
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb {
+        @apply bg-gray-300;
+        border-radius: 100vh;
+        border: 0;
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb:hover {
+        @apply bg-gray-400;
+    }
+}
