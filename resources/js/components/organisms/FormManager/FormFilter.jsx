@@ -5,13 +5,15 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import DotGrid from "../../assets/DotGrid";
 import InputSelect from "../../atoms/forms/InputSelect";
 
 import InputTextLabel from "../../atoms/forms/InputTextLabel";
 
 const FormFilter = ({ className }) => {
     return (
-        <div className={`p-6 text-white bg-primary ${className}`}>
+        <div className={`p-6 text-white relative bg-primary ${className}`}>
+            <DotGrid className="absolute left-0 w-32 transform rotate-45 -top-16 aspect-square" />
             <div className="flex items-center w-full mx-auto space-x-3 xl:w-10/12">
                 <div className="lg:w-4/12">
                     <InputTextLabel
