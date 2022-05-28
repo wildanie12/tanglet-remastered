@@ -25,6 +25,13 @@
             background-color: hsl(200, 20%, 95%);
         }
     }
+
+    .btn {
+        @apply px-2 py-2 font-poppins font-semibold text-xs flex flex-row space-x-1 rounded-lg;
+    }
+    .btn-success {
+        @apply bg-success transition-all duration-300 ease-out hover:shadow-lg active:bg-success-700 active:shadow-lg shadow-sm;
+    }
 }
 
 @layer utilities {

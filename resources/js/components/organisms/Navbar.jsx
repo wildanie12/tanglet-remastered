@@ -1,3 +1,5 @@
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "@inertiajs/inertia-react";
 import React from "react";
 import Profile from "../molecules/navbar/Profile";
@@ -12,6 +14,12 @@ const Navbar = () => {
                         className="text-sm font-semibold text-gray-500 font-poppins"
                     >
                         Form Manager
+                    </Link>
+                </div>
+                <div className="flex items-center justify-end space-x-4 md:mr-4">
+                    <Link href="/form" className="text-white btn btn-success">
+                        <FontAwesomeIcon icon={faPlus} className="w-4 h-4" />
+                        <span className="hidden md:block">Create new form</span>
                     </Link>
                 </div>
                 <Profile />
