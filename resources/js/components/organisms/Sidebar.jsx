@@ -61,18 +61,16 @@ const Sidebar = () => {
     ];
 
     return (
-        <div className="fixed top-0 bottom-0 flex flex-col h-screen shadow-xl sidebar w-52">
+        <div className="fixed top-0 bottom-0 flex flex-col h-screen bg-white shadow-xl sidebar w-52">
             <Header />
             <Avatar />
             <SearchInput />
             <hr className="w-4/5 mx-auto my-2 bg-gray-200" />
             <div className="flex-grow overflow-y-auto scrollbar">
                 <SidebarMenu menuItems={menuItems} />
-                <SidebarMenu menuItems={menuItems} />
-                <SidebarMenu menuItems={menuItems} />
+                <hr className="w-4/5 mx-auto my-2 bg-gray-200" />
+                <SidebarMenu menuItems={footerMenuItems} />
             </div>
-            <hr className="w-4/5 mx-auto my-2 bg-gray-200" />
-            <SidebarMenu menuItems={footerMenuItems} />
             <Footer />
         </div>
     );

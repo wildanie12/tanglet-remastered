@@ -4,7 +4,7 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const SearchInput = () => {
     return (
-        <div className="py-2 px-4 w-full">
+        <div className="w-full px-4 ">
             <InputTextIcon icon={faSearch} placeholder="Search . . ." />
         </div>
     );
