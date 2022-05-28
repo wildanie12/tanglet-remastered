@@ -1,6 +1,7 @@
 import React from "react";
 import { Head } from "@inertiajs/inertia-react";
 import Sidebar from "../../components/organisms/Sidebar";
+import Navbar from "../../components/organisms/Navbar";
 
 const FormManager = ({ appTitle }) => {
     return (
@@ -9,7 +10,13 @@ const FormManager = ({ appTitle }) => {
                 <title>{appTitle}</title>
             </Head>
             <Sidebar />
-            <div className="w-8">FormManager</div>
+            <div className="flex">
+                <div className="w-52"></div>
+                <div className="flex-grow">
+                    <Navbar />
+                    <div className="text-3xl">FormManager</div>
+                </div>
+            </div>
         </>
     );
 };
