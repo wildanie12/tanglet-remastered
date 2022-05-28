@@ -34,7 +34,7 @@ const Profile = () => {
                         leaveTo="transform scale-90 opacity-0"
                     >
                         <Menu.Items
-                            className="absolute w-48 mt-2 origin-top-right bg-white rounded-md shadow-lg outline-none right-2"
+                            className="absolute w-48 mt-2 origin-top-right bg-white rounded-md shadow-lg outline-none right-2 z-[100]"
                             static
                         >
                             <Menu.Item>
