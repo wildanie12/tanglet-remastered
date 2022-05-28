@@ -19,7 +19,7 @@ const FormManager = ({ appTitle }) => {
                     <Navbar />
                     {/* header Jumbotron */}
                     <FormSummary />
-                    <FormFilter className="-mt-1" />
+                    <FormFilter className="pb-32 -mt-1" />
                 </div>
             </div>
         </>
