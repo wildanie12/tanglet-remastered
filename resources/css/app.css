@@ -5,6 +5,9 @@
 @tailwind utilities;
 
 @layer base {
+    body {
+        @apply bg-gray-100;
+    }
 }
 
 @layer components {
