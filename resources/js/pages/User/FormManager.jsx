@@ -3,6 +3,8 @@ import { Head } from "@inertiajs/inertia-react";
 import Sidebar from "../../components/organisms/Sidebar";
 import Navbar from "../../components/organisms/Navbar";
 
+import FormSummary from "../../components/organisms/FormManager/FormSummary";
+
 const FormManager = ({ appTitle }) => {
     return (
         <>
@@ -14,7 +16,8 @@ const FormManager = ({ appTitle }) => {
                 <div className="w-52"></div>
                 <div className="flex-grow">
                     <Navbar />
-                    <div className="text-3xl">FormManager</div>
+                    {/* header Jumbotron */}
+                    <FormSummary />
                 </div>
             </div>
         </>
