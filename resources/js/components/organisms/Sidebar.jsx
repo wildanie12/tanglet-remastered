@@ -1,19 +1,23 @@
 import React from "react";
-import AccountIcon from "../assets/AccountIcon";
-import DashboardIcon from "../assets/DashboardIcon";
-import FormIcon from "../assets/FormIcon";
-import StatisticIcon from "../assets/StatisticIcon";
 import Avatar from "../molecules/sidebar/Avatar";
 import Header from "../molecules/sidebar/Header";
 import { Menu as SidebarMenu } from "../molecules/sidebar/Menu";
 import SearchInput from "../molecules/sidebar/SearchInput";
-import FormAllIcon from "../assets/FormAllIcon";
-import FormPublishedIcon from "../assets/FormPublishedIcon";
-import FormDraftIcon from "../assets/FormDraftIcon";
-import FormArchievedIcon from "../assets/FormArchievedIcon";
-import ReportPlusIcon from "../assets/ReportPlusIcon";
-import ReportClipboardIcon from "../assets/ReportClipboardIcon";
-import ReportStatisticIcon from "../assets/ReportStatisticIcon";
+
+import AccountIcon from "../assets/sidebar/AccountIcon";
+import DashboardIcon from "../assets/sidebar/DashboardIcon";
+import StatisticIcon from "../assets/sidebar/StatisticIcon";
+
+import FormIcon from "../assets/sidebar/FormIcon";
+import FormAllIcon from "../assets/sidebar/form/FormAllIcon";
+import FormPublishedIcon from "../assets/sidebar/form/FormPublishedIcon";
+import FormDraftIcon from "../assets/sidebar/form/FormDraftIcon";
+import FormArchievedIcon from "../assets/sidebar/form/FormArchievedIcon";
+
+import ReportPlusIcon from "../assets/sidebar/report/ReportPlusIcon";
+import ReportClipboardIcon from "../assets/sidebar/report/ReportClipboardIcon";
+import ReportStatisticIcon from "../assets/sidebar/report/ReportStatisticIcon";
+
 import Footer from "../molecules/sidebar/Footer";
 
 const Sidebar = () => {
