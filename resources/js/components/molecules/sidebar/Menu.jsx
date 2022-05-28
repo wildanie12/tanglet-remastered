@@ -10,17 +10,20 @@ import FormAllIcon from "../../assets/FormAllIcon";
 
 export const Menu = () => {
     const formDropdownItem = [
-        <MenuItemDropdown Icon={FormAllIcon} text="All Forms" />,
-        <MenuItemDropdown
-            Icon={FormAllIcon}
-            text="Published"
-            isActive={true}
-        />,
+        { Icon: FormAllIcon, text: "All Forms" },
+        { Icon: FormAllIcon, text: "Single" },
+        { Icon: FormAllIcon, text: "Multiple" },
+        { Icon: FormAllIcon, text: "Published", isActive: true },
     ];
 
     return (
         <div className="w-full">
-            <MenuItem Icon={DashboardIcon} text="Dashboard" hasArrow={true} />
+            <MenuItem
+                Icon={DashboardIcon}
+                text="Dashboard"
+                hasArrow={true}
+                dropdownItems={formDropdownItem}
+            />
             <MenuItem
                 Icon={FormIcon}
                 isActive={true}
