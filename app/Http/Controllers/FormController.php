@@ -21,6 +21,7 @@ class FormController extends Controller
     {
         $forms = $this->formService->findAll();
         return Inertia::render('User/FormManager', [
+            'appTitle' => 'Form Manager - Title',
             'forms' => $forms,
         ]);
     }
