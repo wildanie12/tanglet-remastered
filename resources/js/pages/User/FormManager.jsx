@@ -4,6 +4,7 @@ import Sidebar from "../../components/organisms/Sidebar";
 import Navbar from "../../components/organisms/Navbar";
 
 import FormSummary from "../../components/organisms/FormManager/FormSummary";
+import FormFilter from "../../components/organisms/FormManager/FormFilter";
 
 const FormManager = ({ appTitle }) => {
     return (
@@ -18,6 +19,7 @@ const FormManager = ({ appTitle }) => {
                     <Navbar />
                     {/* header Jumbotron */}
                     <FormSummary />
+                    <FormFilter className="-mt-1" />
                 </div>
             </div>
         </>
