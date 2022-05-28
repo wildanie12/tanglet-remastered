@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Services\Interfaces\FormServiceInterface;
 use Illuminate\Http\Request;
+use Inertia\Inertia;
 
 class FormController extends Controller
 {
@@ -18,12 +19,10 @@ class FormController extends Controller
      */
     public function index()
     {
-        try {
-            $forms = $this->formService->findAll();
-            dd($forms);
-        } catch (\Exception $e) {
-            dd($e);
-        }
+        $forms = $this->formService->findAll();
+        return Inertia::render('User/FormManager', [
+            'forms' => $forms,
+        ]);
     }
 
     /**
