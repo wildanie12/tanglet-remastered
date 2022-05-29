@@ -16,7 +16,7 @@ const FormSummary = () => {
         <div className="relative flex items-center w-full h-56">
             <HeaderVector className="absolute bottom-0 left-0 z-0 w-auto h-full" />
             <div className="z-10 flex items-center w-full font-poppins">
-                <div className="flex items-center ml-16 md:w-1/2 ">
+                <div className="flex items-center flex-grow ml-16 md:w-1/2 ">
                     <div className="flex flex-col items-start justify-start">
                         <h2 className="mr-10 text-2xl font-bold">Your Forms</h2>
                         <div className="text-lg text-gray-500">
@@ -31,7 +31,7 @@ const FormSummary = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="flex justify-between flex-grow">
+                <div className="flex justify-end space-x-8">
                     <div className="flex-col items-center hidden space-y-2 md:flex md:w-auto md:items-stretch">
                         <SummaryCard
                             Icon={
