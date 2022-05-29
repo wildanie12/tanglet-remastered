@@ -61,7 +61,7 @@ const Sidebar = () => {
     ];
 
     return (
-        <div className="fixed top-0 bottom-0 flex flex-col h-screen bg-white shadow-xl sidebar w-52">
+        <div className="fixed top-0 bottom-0 z-50 flex flex-col h-screen bg-white shadow-xl sidebar w-52">
             <Header />
             <Avatar />
             <SearchInput />
