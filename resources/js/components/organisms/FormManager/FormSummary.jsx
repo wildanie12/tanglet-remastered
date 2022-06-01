@@ -8,7 +8,7 @@ import {
     faPlus,
     faUsers,
 } from "@fortawesome/free-solid-svg-icons";
-import SummaryCard from "../../atoms/cards/SummaryCard";
+import SummaryCard from "../../molecules/cards/SummaryCard";
 import { Link } from "@inertiajs/inertia-react";
 
 const FormSummary = () => {
