@@ -3,10 +3,16 @@ import FormCard from "../../molecules/cards/FormCard";
 
 const FormCardList = () => {
     return (
-        <div className="relative z-10 flex items-start justify-center w-full -mt-24 space-x-4">
-            <FormCard className="w-full xl:w-3/12 lg:w-4/12 md:w-6/12" />
-            <FormCard className="w-full xl:w-3/12 lg:w-4/12 md:w-6/12" />
-            <FormCard className="w-full xl:w-3/12 lg:w-4/12 md:w-6/12" />
+        <div className="relative z-10 flex flex-wrap w-full px-4 -mt-24 md:px-8">
+            <div className="w-full p-2 md:w-1/2 lg:w-4/12">
+                <FormCard className="box-border" />
+            </div>
+            <div className="w-full p-2 md:w-1/2 lg:w-4/12">
+                <FormCard className="box-border" />
+            </div>
+            <div className="w-full p-2 md:w-1/2 lg:w-4/12">
+                <FormCard className="box-border" />
+            </div>
         </div>
     );
 };
