@@ -32,6 +32,12 @@
     .btn-success {
         @apply bg-success text-white transition-all duration-300 ease-out hover:shadow-lg active:bg-success-700 active:shadow-lg shadow-sm;
     }
+    .btn-warning {
+        @apply bg-warning text-white transition-all duration-300 ease-out hover:shadow-lg active:bg-warning-700 active:shadow-lg shadow-sm;
+    }
+    .btn-primary {
+        @apply bg-primary text-white transition-all duration-300 ease-out hover:shadow-lg active:bg-primary-700 active:shadow-lg shadow-sm;
+    }
 }
 
 @layer utilities {
