@@ -15,8 +15,8 @@ const FormManager = ({ appTitle }) => {
             </Head>
             <Sidebar />
             <div className="flex">
-                <div className="w-52"></div>
-                <div className="flex-grow">
+                <div className="w-52 shrink-0"></div>
+                <div className="flex-grow overflow-hidden">
                     <Navbar />
                     {/* header Jumbotron */}
                     <FormSummary />
