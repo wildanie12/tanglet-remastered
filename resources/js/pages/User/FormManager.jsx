@@ -5,6 +5,7 @@ import Navbar from "../../components/organisms/Navbar";
 
 import FormSummary from "../../components/organisms/FormManager/FormSummary";
 import FormFilter from "../../components/organisms/FormManager/FormFilter";
+import FormCardList from "../../components/organisms/FormManager/FormCardList";
 
 const FormManager = ({ appTitle }) => {
     return (
@@ -20,6 +21,7 @@ const FormManager = ({ appTitle }) => {
                     {/* header Jumbotron */}
                     <FormSummary />
                     <FormFilter className="pb-32 -mt-1" />
+                    <FormCardList />
                 </div>
             </div>
         </>
