@@ -1,6 +1,8 @@
 import React from "react";
 import FormBadges from "../../molecules/FormDesigner/FormLayerControl/FormBadges";
+import FormGeneralButtons from "../../molecules/FormDesigner/FormLayerControl/FormGeneralButtons";
 import FormImageLogo from "../../molecules/FormDesigner/FormLayerControl/FormImageLogo";
+import PublishStatus from "../../molecules/FormDesigner/FormLayerControl/PublishStatus";
 
 const FormLayerControl = ({ className }) => {
     return (
@@ -36,6 +38,10 @@ const FormLayerControl = ({ className }) => {
                         velit reprehenderit. Laboriosam alias, iure ratione
                         repellendus magnam rerum.
                     </p>
+                </div>
+                <div className="flex items-stretch w-full my-4 space-x-2">
+                    <PublishStatus className="w-full md:w-7/12"></PublishStatus>
+                    <FormGeneralButtons className="w-full md:w-5/12" />
                 </div>
             </div>
         </div>
