@@ -1,7 +1,7 @@
 import React from "react";
 import { faHamburger } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import FloatFormIcon from "../../atoms/FloatFormIcon";
+import FloatFormIcon from "../../../atoms/FloatFormIcon";
 
 const FormImageLogo = ({ className }) => {
     return (
