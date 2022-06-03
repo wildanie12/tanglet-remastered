@@ -1,5 +1,6 @@
 import { Head } from "@inertiajs/inertia-react";
 import React from "react";
+import FormLayerControl from "../../components/organisms/FormDesigner/FormLayerControl";
 import Navbar from "../../components/organisms/Navbar";
 import Sidebar from "../../components/organisms/Sidebar";
 
@@ -14,7 +15,11 @@ const FormDesigner = ({ appTitle }) => {
                 <div className="w-52 shrink-0"></div>
                 <div className="flex-grow overflow-hidden">
                     <Navbar />
-                    <h4 className="text-2xl">Form Designer is here</h4>
+                    <div className="p-2 content lg:p-4 xl:p-8">
+                        <div className="flex items-start justify-start w-full gap-2 md:gap-4">
+                            <FormLayerControl className="w-full md:w-1/2 lg:w-4/12 xl:w-3/12" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
