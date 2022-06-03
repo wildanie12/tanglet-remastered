@@ -1,4 +1,5 @@
 import React from "react";
+import FormBadges from "../../molecules/FormDesigner/FormLayerControl/FormBadges";
 import FormImageLogo from "../../molecules/FormDesigner/FormLayerControl/FormImageLogo";
 
 const FormLayerControl = ({ className }) => {
@@ -10,8 +11,8 @@ const FormLayerControl = ({ className }) => {
             }
         >
             <FormImageLogo className="w-full" />
-            div
-            <div className="w-full p-4 font-medium font-raleway">
+            <div className="w-full p-4 mt-4 font-medium font-raleway">
+                <FormBadges className="mb-2" />
                 <h4 className="mb-2 text-xl font-semibold font-poppins text-primary">
                     Keanggotaan Gotong rotong upaya pembersihan sampah pantai
                 </h4>
