@@ -33,7 +33,9 @@ class FormController extends Controller
      */
     public function create()
     {
-        //
+        return Inertia::render('User/FormDesigner', [
+            'appTitle' => 'Form Designer - Tanglet'
+        ]);
     }
 
     /**

@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 
 Route::get('/form', [FormController::class, 'index']);
+Route::get('/form/designer', [FormController::class, 'create']);
