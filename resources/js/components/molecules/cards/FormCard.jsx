@@ -38,8 +38,8 @@ const FormCard = ({
                 />
                 <BadgeTrack
                     label="20"
-                    color="warning"
-                    className="bg-warning"
+                    textColor="text-warning"
+                    bgColor="bg-warning"
                     icon={
                         <FontAwesomeIcon
                             icon={faUsers}
