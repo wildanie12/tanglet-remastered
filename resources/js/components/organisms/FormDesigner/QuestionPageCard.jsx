@@ -15,7 +15,7 @@ const QuestionPageCard = ({ className }) => {
                 <QuestionPageHeader className="flex-grow" />
                 <QuestionPageControl />
             </div>
-            <hr className="mt-2 text-gray-100" />
+            <hr className="text-gray-100" />
             <div className="p-2 bg-blue-50 lg:p-6">
                 <QuestionDraggable />
             </div>
