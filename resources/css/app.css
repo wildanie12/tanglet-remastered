@@ -41,6 +41,9 @@
     .btn-gray {
         @apply bg-gray-300 text-gray-700 transition-all duration-300 ease-out hover:shadow-lg active:bg-gray-400 active:shadow-lg shadow-sm;
     }
+    .btn-white {
+        @apply bg-white text-gray-700 transition-all duration-300 ease-out hover:shadow-lg active:bg-gray-50 active:shadow-lg shadow-lg;
+    }
     .btn-error {
         @apply bg-accent text-white transition-all duration-300 ease-out hover:shadow-lg active:bg-red-800 active:shadow-lg shadow-sm;
     }
