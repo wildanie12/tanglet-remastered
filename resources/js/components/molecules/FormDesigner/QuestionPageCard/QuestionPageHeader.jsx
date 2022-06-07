@@ -6,7 +6,7 @@ import QuestionPageIcon from "../../../atoms/QuestionPageIcon";
 
 const QuestionPageHeader = ({ className = "" }) => {
     return (
-        <div className={"flex items-center p-2 space-x-3 " + className}>
+        <div className={"flex items-center p-3 space-x-3 " + className}>
             <QuestionPageIcon
                 Logo={
                     <FontAwesomeIcon
